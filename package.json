@@ -1,0 +1,49 @@
+{
+  "name": "voyager-batchcat-js",
+  "description": "Javacript module for using the Voyager ILS Batchcat DLL",
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "keywords": [
+    "ex libris",
+    "exlibris",
+    "voyager",
+    "batchcat",
+    "ils",
+    "library",
+    "libraries",
+    "marc",
+    "mfhd",
+    "edge",
+    "dll"
+  ],
+  "homepage": "https://github.com/natlibfi/voyager-batchcat-js",
+  "bugs": {
+    "url": "https://github.com/natlibfi/voyager-batchcat-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:natlibfi/voyager-batchcat-js.git"
+  },
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "main": "./lib/main",
+  "scripts": {
+    "lint": "jshint .",
+    "test": "istanbul cover _mocha",
+    "cover": "npm run test && istanbul check-coverage",
+    "check": "npm run lint && npm run cover",
+    "travisci": "npm run check",
+    "publish-to-npm": "npm install && npm run check && npm publish"
+  },
+  "dependencies": {
+    "edge": "^6.5.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "istanbul": "^0.4.5",
+    "codeclimate-test-reporter": "^0.4.0"
+  }
+}
