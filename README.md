@@ -1,8 +1,8 @@
-# Javacript API Voyager Batchcat DLL [![Build Status](https://travis-ci.org/NatLibFi/voyager-batchcat-js.svg)](https://travis-ci.org/NatLibFi/voyager-batchcat-js) [![Test Coverage](https://codeclimate.com/github/NatLibFi/voyager-batchcat-js/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/voyager-batchcat-js/coverage)
+# Javacript API for Voyager Batchcat DLL [![Build Status](https://travis-ci.org/NatLibFi/voyager-batchcat-js.svg)](https://travis-ci.org/NatLibFi/voyager-batchcat-js) [![Test Coverage](https://codeclimate.com/github/NatLibFi/voyager-batchcat-js/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/voyager-batchcat-js/coverage)
 
 **WORK IN PROGRESS**
 
-Javacript API Voyager Batchcat DLL
+Javacript API for Voyager Batchcat DLL
 
 ## License and copyright
 

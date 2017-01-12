@@ -1,6 +1,6 @@
 {
   "name": "voyager-batchcat-js",
-  "description": "Javacript API Voyager Batchcat DLL",
+  "description": "Javacript API for Voyager Batchcat DLL",
   "author": {
     "name": "The National Library of Finland"
   },
