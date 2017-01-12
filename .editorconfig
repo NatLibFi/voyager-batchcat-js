@@ -4,7 +4,7 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{sh,js,cs,json,yml}]
+[*.{sh,js,json,yml}]
 charset = utf-8
 indent_style = space
 indent_size = 2
