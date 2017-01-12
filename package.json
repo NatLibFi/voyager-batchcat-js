@@ -1,6 +1,6 @@
 {
   "name": "voyager-batchcat-js",
-  "description": "Javacript module for using the Voyager ILS Batchcat DLL",
+  "description": "Javacript API Voyager Batchcat DLL",
   "author": {
     "name": "The National Library of Finland"
   },
@@ -15,7 +15,10 @@
     "marc",
     "mfhd",
     "edge",
-    "dll"
+    "dll",
+    "c#",
+    "dotnet",
+    "mono"
   ],
   "homepage": "https://github.com/natlibfi/voyager-batchcat-js",
   "bugs": {
