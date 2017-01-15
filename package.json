@@ -40,7 +40,8 @@
     "publish-to-npm": "npm install && npm run check && npm publish"
   },
   "dependencies": {
-    "edge": "^6.5.1"
+    "edge": "^6.5.1",
+    "marc-record-converters": "https://github.com/natlibfi/marc-record-converters"
   },
   "devDependencies": {
     "chai": "^3.5.0",
