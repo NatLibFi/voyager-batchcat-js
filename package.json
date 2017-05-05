@@ -37,17 +37,23 @@
     "cover": "npm run test && istanbul check-coverage",
     "check": "npm run lint && npm run cover",
     "travisci": "npm run check",
-    "publish-to-npm": "npm install && npm run check && npm publish"
+    "publish-to-npm": "npm install && npm run check && npm publish",
+    "test:unit": "mocha lib/**/*.spec.js",
+    "test:unit:watch": "mocha lib/**/*.spec.js -w"
   },
   "dependencies": {
     "edge": "^6.5.1",
-    "marc-record-converters": "https://github.com/natlibfi/marc-record-converters"
+    "marc-record-converters": "https://github.com/natlibfi/marc-record-converters",
+    "marc-record-js": "^0.3.1",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "codeclimate-test-reporter": "^0.4.0",
+    "istanbul": "^0.4.5",
     "jshint": "^2.9.4",
     "mocha": "^3.2.0",
-    "istanbul": "^0.4.5",
-    "codeclimate-test-reporter": "^0.4.0"
+    "sinon": "^2.2.0",
+    "sinon-chai": "^2.10.0"
   }
 }
